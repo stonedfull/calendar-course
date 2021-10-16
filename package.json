@@ -1,4 +1,5 @@
 {
+  "homepage": "http://stonedfull.github.io/calendar-course",
   "name": "calendar-course",
   "version": "0.1.0",
   "private": false,
@@ -16,6 +17,7 @@
     "@types/redux-thunk": "^2.1.0",
     "antd": "^4.16.13",
     "axios": "^0.22.0",
+    "gh-pages": "^3.2.3",
     "moment": "^2.29.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -29,6 +31,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
