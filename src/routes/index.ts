@@ -3,8 +3,8 @@ import { Event } from "../pages/Event";
 import { Login } from "../pages/Login";
 
 export enum RouteNames {
-  Login = "/login",
-  Event = "/",
+  Login = "calendar-course/login",
+  Event = "calendar-course/",
 }
 
 export interface Route {
